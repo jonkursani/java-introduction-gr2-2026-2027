@@ -35,4 +35,8 @@ void main() {
     IO.println(Math.round(2.5));
     IO.println(Math.floor(2.9));
     IO.println(Math.ceil(2.1));
+
+    // Zari
+    int dice = (int) (Math.random() * 6) + 1; // 0.0 - 5.9
+    IO.println("dice: " + dice);
 }
