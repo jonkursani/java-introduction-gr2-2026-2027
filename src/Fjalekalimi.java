@@ -8,11 +8,11 @@ void main() {
 
     // A ka shkronje te madhe
     String lower = password.toLowerCase(); // Po => po
-    Boolean hasUpper = !password.equals(lower); // !(Po = po) = !F => T
+    boolean hasUpper = !password.equals(lower); // !(Po = po) = !F => T
 
     // A ka shkronje te vogel
     String upper = password.toUpperCase();
-    Boolean hasLower = !password.equals(upper);
+    boolean hasLower = !password.equals(upper);
 
     // A eshte common password (123456, password, qwerty)
     boolean isCommon = password.equals("123456")
